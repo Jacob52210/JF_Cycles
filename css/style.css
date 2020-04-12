@@ -2,7 +2,7 @@
 body {
     background: linear-gradient(-45deg,darkgreen,black);
     background-size: 400% 1800px;
-    animation: change 5s ease-in-out infinite;
+    animation: change 10s ease-in-out infinite;
 }
 
 @keyframes change {
@@ -41,12 +41,10 @@ h4 {
 
 /*   Contact Us    */
 form {
-    text-align: right;
+    text-align: center;
     color: limegreen;
     font-size: 20px;
     font-weight: bolder;
-    padding-right: 850px;
-   
 }
 
 div.Contact-Us {
