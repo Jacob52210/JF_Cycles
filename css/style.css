@@ -1,0 +1,160 @@
+/*    General    */
+body {
+    background: linear-gradient(-45deg,darkgreen,black);
+    background-size: 400% 1800px;
+    animation: change 5s ease-in-out infinite;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: limegreen;
+}
+
+/*    About Us    */
+p {
+    color: limegreen;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+h4 {
+    color: limegreen;
+    font-style: italic;
+    
+    text-align: center;
+}
+
+/*   Contact Us    */
+form {
+    text-align: right;
+    color: limegreen;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-right: 850px;
+   
+}
+
+div.Contact-Us {
+    color: limegreen;
+    text-align: center;
+}
+
+
+/*    Navigation Bar    */
+nav {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+label.logo {
+    color: limegreen;
+    font-size: 50px;
+    line-height: 85px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Nosifer', cursive;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 88px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: limegreen;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover {
+    color: black;
+    background-color:limegreen;
+    transition: .5s;
+}
+
+
+/*   Image Carousal   */
+section#carousel > figure > img {
+    display: none;
+    margin: 0px auto;
+    }
+section#carousel > figure.visible > img {
+    display: block;    
+    position: relative;
+    overflow: hidden;  
+    }
+section#carousel > figure > figcaption {
+    display: none;
+    }
+section#carousel > figure.visible > figcaption {
+    display: block;    
+    text-align: center;  
+    font-weight: bold;
+    font-size: 1.5em;
+    }
+figcaption {
+    color: limegreen;
+}
+.pics-too-big {
+    width: auto;
+    height: 500px;
+}
+
+
+/*   Browser Sizing   */
+
+@media (max-width: 800px) {
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: limegreen;
+        color: black;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    a.active,a:hover {
+        color:limegreen;
+        background-color:black;
+        transition: .5s;
+    }
+
+    #checked:checked ~ ul {
+        left: 0;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        color: black;
+    }
+}
