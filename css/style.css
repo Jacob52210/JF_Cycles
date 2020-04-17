@@ -1,8 +1,8 @@
 /*    General    */
 body {
-    background: linear-gradient(-45deg,darkgreen,black);
+    background: linear-gradient(-45deg,darkgreen,black, lightgreen);
     background-size: 400% 1800px;
-    animation: change 10s ease-in-out infinite;
+    animation: change 5s ease-in-out infinite;
 }
 
 @keyframes change {
@@ -111,11 +111,10 @@ nav ul li a {
 a.active,a:hover {
     color: black!important;
     font-weight: bolder;
-    background-color:limegreen;
-    transition: .8s;
+    background:limegreen;
+    transition: 1s;
     text-decoration: none!important;
 }
-
 
 /*   Image Carousal   */
 section#carousel > figure > img {
