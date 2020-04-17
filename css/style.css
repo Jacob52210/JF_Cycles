@@ -50,9 +50,10 @@ form {
     color: limegreen;
     font-size: 20px;
     font-weight: bolder;
-    padding: 20px;
+    padding: 30px;
     line-height: 2;
-    border-radius: 5px;
+    border-radius: 200px;
+    border: solid limegreen;
 }
 
 div.Contact-Us {
@@ -66,6 +67,9 @@ label.label {
 
 
 /*    Navigation Bar    */
+a {
+    text-decoration: none!important;
+}
 nav {
     background-color: black;
     margin: 0%;
@@ -105,11 +109,11 @@ nav ul li a {
 }
 
 a.active,a:hover {
-    color: black;
+    color: black!important;
     font-weight: bolder;
     background-color:limegreen;
     transition: .8s;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 

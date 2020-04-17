@@ -13,7 +13,8 @@ function moveForward() {
             pointer = i;        
         }
     }
-    if (++pointer == figures.length) {
+    pointer = pointer + 1;
+    if (pointer == figures.length) {
         pointer = 0;
     }
     figures[pointer].className = 'visible';
