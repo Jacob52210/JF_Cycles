@@ -60,11 +60,19 @@ div.Contact-Us {
     color: limegreen;
     text-align: center;
 }
+
 label.label {
     width: 240px;
     text-align: right;
 }
 
+::placeholder {
+    color: lightgreen;
+}
+
+:required {
+    color: red;
+}
 
 /*    Navigation Bar    */
 a {
