@@ -1,4 +1,5 @@
-My name is Jacob Flora.
+#My name is Jacob Flora.
+#My website is hosted at https://jacob52210.github.io/Project01/
 My web site is for a fake motorcycle repair shop called JF Cycles.
 You can navigate my website by using my easily identifiable nav bar on the top right. 
 You can order parts, browse work that weve done, contact us via form.
