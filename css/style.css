@@ -1,6 +1,6 @@
 /*    General    */
 body {
-    background: linear-gradient(-45deg,darkgreen,black, lightgreen);
+    background: linear-gradient(-45deg,darkgreen,black);
     background-size: 400% 1800px;
     animation: change 5s ease-in-out infinite;
 }
@@ -147,6 +147,5 @@ figcaption {
     color: limegreen;
 }
 .pics-too-big {
-    width: auto;
     height: 500px;
 }
