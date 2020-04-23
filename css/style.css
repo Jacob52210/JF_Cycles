@@ -33,7 +33,7 @@ h1 {
 /*    About Us    */
 p {
     color: limegreen;
-    font-size: larger;
+    font-size: large;
     font-weight: bold;
     font-style: italic;
     text-align: center;
@@ -54,6 +54,7 @@ form {
     line-height: 2;
     border-radius: 200px;
     border: solid limegreen;
+    margin-block-end:inherit;
 }
 
 div.Contact-Us {
@@ -65,13 +66,12 @@ label.label {
     width: 240px;
     text-align: right;
 }
+#textarea {
+    line-height: 5px;
+}
 
 ::placeholder {
     color: lightgreen;
-}
-
-:required {
-    color: red;
 }
 
 /*    Navigation Bar    */
