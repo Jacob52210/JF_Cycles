@@ -1,8 +1,20 @@
-#My name is Jacob Flora.
-#My website is hosted at https://jacob52210.github.io/JF_Cycles/
-My web site is for a fake motorcycle repair shop called JF Cycles.
-You can navigate my website by using my easily identifiable nav bar on the top right. 
-You can order parts, browse work that weve done, contact us via form.
-I used .html, .css, .js to code my website.
-in the future I would like to make it more mobile friendly, add more features by utilizing javascript, 
-and I would like to make it more personal for the user.
+# JF Cycles
+*By: Jacob Flora*
+## Description
+*This is a fake motorcyle repair shop website do demonstrate forms, nav bars, headers, images, animated background, and image carousel.* 
+#### Hosted [HERE](https://jacob52210.github.io/JF_Cycles/ "JF Cycles")
+___
+## User Stories
+1. As a motorcyle rider, I want to pick out a garage from the comfort of my own home so that I have an idea of what work they can do.
+2. As an owner of JF Cycles, I want a custom website that is user friendly so that my customers can set up appointments and view the work I've done.
+3. As a "do it yourselfer" I want to order my parts through a trusted garage website so that I can make my own repairs.
+___
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+___
+## Future Improvements
+* Make it mobile friendly.
+* Customize it to the user. Example: "Welcome 'User Name'!".
+* Utilize more JavaScript to make website more responsive.
