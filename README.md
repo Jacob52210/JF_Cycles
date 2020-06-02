@@ -1,7 +1,7 @@
 # JF Cycles
 *By: Jacob Flora*
 ## Description
-*This is a fake motorcyle repair shop website do demonstrate forms, nav bars, headers, images, animated background, and image carousel.* 
+*This is a fake motorcycle repair shop website do demonstrate forms, nav bars, headers, images, animated background, and image carousel.* 
 #### Hosted [HERE](https://jacob52210.github.io/JF_Cycles/ "JF Cycles")
 ___
 ## User Stories
